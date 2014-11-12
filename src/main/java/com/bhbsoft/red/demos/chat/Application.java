@@ -1,4 +1,4 @@
-package org.red5.demos.chat;
+package com.bhbsoft.red.demos.chat;
 
 import org.red5.logging.Red5LoggerFactory;
 import org.red5.net.websocket.WebSocketPlugin;

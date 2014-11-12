@@ -1,4 +1,4 @@
-package org.red5.demos.chat;
+package com.bhbsoft.red.demos.chat;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashSet;

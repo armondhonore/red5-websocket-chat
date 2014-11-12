@@ -24,7 +24,7 @@
 		<property name="virtualHosts" value="${webapp.virtualHosts}" />
 	</bean>
 
-	<bean id="web.handler" class="org.red5.demos.chat.Application"/>
+	<bean id="web.handler" class="com.bhbsoft.red.demos.chat.Application"/>
 	
     <!-- WebSocket scope with our listeners --> 
     <bean id="webSocketScopeDefault" class="org.red5.net.websocket.WebSocketScope" init-method="register" destroy-method="unregister">
@@ -32,7 +32,7 @@
         <property name="path" value="default"/>
         <property name="listeners">
             <list>
-                <bean id="chatListener" class="org.red5.demos.chat.WebSocketChatDataListener"/>
+                <bean id="chatListener" class="com.bhbsoft.red.demos.chat.WebSocketChatDataListener"/>
             </list>
         </property>
     </bean>
